@@ -14,10 +14,11 @@ class Program
         // Inuti loop, multiplicera inmatningstalet med det aktuella iterationsvärdet
         // (loopvariabel).
         
-        for (int currentNumber = 1; currentNumber <= 10; currentNumber++)
+        for (int i = 1; i <= 10; i++)
         {  
-            Console.WriteLine($"{inputNumber} x {currentNumber} = {inputNumber * currentNumber}");
+            int result = inputNumber * i;
+            Console.WriteLine($"{inputNumber} x {i} = {result}");
         }
-
+        
     }
 }
